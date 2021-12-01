@@ -1,0 +1,38 @@
+print('Welcome to Billys Amazing Circus')
+
+# First Choice
+first_choice = input('The first thing you see is a clown with a knife what do you do stay still(s), run(r):')
+if first_choice == 'r':
+    print('you run and the clown chases you')
+if first_choice == 's':
+    print('Turns out you were hallucinating from you popcorn allergy')
+    print(exit('So you die life lesson dont go to circuses'))
+
+# Second Choice
+second_choice = input('you come upon a box(b) and either you keep running(r) or hide:')
+if second_choice == 'b':
+    print('you jump into a box and see that there is a stinky shoe')
+    print('Because the shoe is so stinky you make a loud noise and the clown hears this a kills you')
+    print(exit('life lesson dont die'))
+if second_choice == 'r':
+    print('Well, well, well look who made the right choice ')
+    print('Soo you run, but run into a worker')
+
+# Third Choice
+third_choice = input('talk to the worker(w):')
+if third_choice == 'w':
+    print('you: Hello sir, there is a clown chasing me can you call 911')
+    print('Then you realize the worker is not a worker he is a clown')
+
+# Fourth Choice
+fourth_choice = input('you can kick and run(kr) or punch and run(pr):')
+if fourth_choice == 'kr':
+    print('you skipped leg day that one time')
+    print(exit('die, do not pass go, do not collect 200 dollars'))
+if fourth_choice == 'pr':
+    print('You punch him and because you only do arm day you kill him')
+    print('His mask falls of')
+    print('Turns out you were poisoned and hallucinated everything')
+    print("you are charged with first degree murder ")
+    print('you spend 30 years of your life in jail')
+    print(exit('life lesson no one ever wins and you die'))
